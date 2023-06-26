@@ -20,7 +20,7 @@ export default function CarrosEletricosBrasil() {
   const options = {
     title: "CARROS EMPLACADOS NO BRASIL",
     animation:{
-      duration: 1000,
+      duration: 1005,
       easing: 'out',
       "startup": true
     },
