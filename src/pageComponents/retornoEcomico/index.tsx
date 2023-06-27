@@ -15,10 +15,10 @@ export default function Slogan() {
             </div>
 
             <div className="text-sm lg:text-lg text-black text-center sm:text-left p-3">
-            É visto uma tendência que carros acima de R$300mil possuam versões somente opções 
-            hibridas, por este motivo não há como comparar com versões somente a combustão. 
-            Por este motivo avaliaremos o Toyota Corolla e o Renault e-tech por ser o veículo 
-            elétrico mais barato do Brasil atualmente R$ 146.990,00.
+            Uma tendência observada no mercado é que os carros com preço acima de R$ 300 mil 
+            oferecem apenas opções híbridas, sem versões a combustão. Por isso, para fazer uma 
+            comparação mais justa, vamos avaliar o Toyota Corolla, que tem uma versão híbrida leve, 
+            e o Renault e-tech, que é o carro elétrico mais barato do Brasil atualmente, custando R$ 146.990,00.
             </div>
 
             <div className="flex gap-2.5 text-4xl lg:text-4xl text-black font-bold pl-5">
@@ -26,20 +26,19 @@ export default function Slogan() {
             </div>
 
             <div className="text-sm lg:text-lg text-black text-center sm:text-left p-3">
-            O nosso primeiro carro a ser analisado será o Corolla versão Altis Premium, que possuí 
-            versão híbrida (R$193.590,00) e somente a combustão (R$178.890,00), na avaliação do Corolla
-             avaliaremos 2 cenários, que são: considerando a substituição da bateria de acordo com a 
-             garantia de fábrica (8 anos) e também com uma vida útil 50% acima da garantia (12 anos) 
-             e não consideraremos a diferença no valor das revisões por ser inferior a 10% a diferença.
+            Vamos começar a nossa análise pelo Corolla, que tem uma versão híbrida leve (R$ 193.590,00) e 
+            outra a combustão (R$ 178.890,00). Ambas são da versão Altis Premium. Para comparar os custos dos 
+            dois modelos, vamos considerar dois cenários: um com a substituição da bateria do híbrido de acordo 
+            com o prazo de garantia de fábrica (8 anos) e outro com uma vida útil da bateria 50% maior que o garantido (12 anos). Além disso, vamos desconsiderar a diferença no valor das revisões, pois é inferior a 10%.
             </div>
             <TabelaCorolla/>
             <GraficoCorollaBateria8anos/>
             <GraficoCorollaBateria12anos/>
             <div className="text-sm lg:text-lg text-black text-center sm:text-left p-3">
-            Conforme visto nos dados acima não há um cenário fluxo de caixa muito diferente entre os dois 
-            modelos, pois quando o modelo híbrido começa a se tornar viável se faz necessária a substituição 
-            da bateria. Portanto, caso o proprietário do modelo híbrido venda o seu veículo com menos de 6 anos 
-            de uso, o seu investimento não terá um retorno positivo.
+            A análise dos dados acima mostra que não há uma grande vantagem financeira entre os dois modelos, 
+            pois a economia de combustível do modelo híbrido é compensada pelo custo de substituição da bateria. 
+            Assim, se o dono do modelo híbrido vender o seu carro com menos de 6 anos de uso, ele não terá um retorno 
+            positivo do seu investimento.
             </div>
 
             <div className="flex gap-2.5 text-4xl lg:text-4xl text-black font-bold pl-5">
@@ -47,34 +46,35 @@ export default function Slogan() {
             </div>
 
             <div className="text-sm lg:text-lg text-black text-center sm:text-left p-3">
-            Conhecido por ser o modelo elétrico mais barato do Brasil em 2023, o Renault kwid e-tech 
-            possuí duas comercializadas, que são: A combustão no valor de R$ 58.990,00 e a versão 
-            elétrica no valor de R$ 146.990,00. Para a avaliação deste veículo, será considerado também 
-            os 2 cenários de vida útil da bateria, com o prazo de garantia fornecido pelo fabricante (8 anos) 
-            e também outro cenário considerando a vida útil 50% superior a garantia. Para o cálculo do consumo
-            foi considerado os dados fornecidos pela própria Renault, que informa um valor de R$0,06/km. Conforme 
-            informado pela montadora, o custo a cada 30mil km do da versão elétrica é de R$506,00 e o da versão a 
-            combustão R$1.529,00, por este motivo será considerado este custo a cada 2 anos.
+            O Renault kwid e-tech é o carro elétrico mais barato do Brasil em 2023. Ele tem duas versões: uma elétrica, 
+            que custa R$ 146.990,00, e outra a combustão, que sai por R$ 58.990,00. Para comparar os custos das duas versões, 
+            vamos considerar dois cenários de vida útil da bateria do elétrico: um com o prazo de garantia de fábrica (8 anos) 
+            e outro com uma duração 50% maior (12 anos). Além disso, vamos usar os dados de consumo fornecidos pela própria 
+            Renault, que indica um gasto de R$ 0,06 por km rodado no elétrico. Segundo a montadora, o custo de manutenção do 
+            elétrico a cada 30 mil km é de R$ 506,00, enquanto o do a combustão é de R$ 1.529,00. Por isso, vamos levar em 
+            conta esse valor a cada dois anos.
             </div>
             <TabelaKwid/>
             <GraficoKwidBateria8anos/>
             <GraficoKwidBateria12anos/>
             <div className="text-sm lg:text-lg text-black text-center sm:text-left pl-3">
-            Conforme visto nos dados acima o kwid elétrico torna-se viável somente após 24 anos de uso, ou seja, 
-            a diferença de valor entre os dois veículos e também o custo de reposição da bateria ainda não tornam 
-            este modelo economicamente viável em qualquer cenário de avaliação.
+            A análise dos dados acima mostra que o kwid elétrico só compensa financeiramente depois de 23 anos de uso, 
+            considerando um cenário de vida útil da bateria de 12 anos. Isso significa que a diferença de preço entre as 
+            versões e o custo de troca da bateria ainda são fatores que inviabilizam economicamente esse modelo com os valores 
+            atuais.
             </div>
             <div className="text-sm lg:text-lg text-black text-center sm:text-left pl-3">
-            Há alguns estados em que há isenção total para veículos elétricos ou híbridos, mas como isso varia conforme 
-            estado não foi considerado no cálculo. Além disso há locais como supermercados e shoppings que possuem 
-            carregamento gratuito para atrair os clientes.
+            Outro fator que pode influenciar na economia dos veículos elétricos ou híbridos é a isenção de impostos em alguns 
+            estados, mas isso não foi levado em conta no cálculo porque varia de acordo com a região. Além disso, existem 
+            lugares como supermercados e shoppings que oferecem carregamento gratuito para os clientes que têm carros elétricos 
+            ou híbridos.
             </div>
             <div className="text-sm lg:text-lg text-black text-center sm:text-left pl-3">
-            É visto que conforme as avaliações acima, no mercado de veículos híbridos e elétricos de entrada não há diferença 
-            econômica vantajosa ainda em relação aos carros tradicionais a combustão, no entanto para carros de luxo com valor 
-            acima de R$300mil essa tecnologia se faz padrão, dessa forma o proprietário estará comprando um veículo que já possuía 
-            este patamar de valor com o benefício da tecnologia do motor elétrico e ter o valor de IPVA isento (em alguns estados), 
-            o que é um valor considerável para veículos neste patamar de valor.
+            As análises acima mostram que os veículos elétricos e híbridos de entrada ainda não são economicamente vantajosos 
+            em relação aos carros a combustão tradicionais, devido aos valores praticados atualmente. Por outro lado, os carros de luxo com preço acima de R$ 300 mil 
+            já adotam essa tecnologia como padrão. Assim, o comprador leva um veículo que já tinha esse valor de mercado, 
+            mas com o benefício do motor elétrico e da isenção de IPVA (em alguns estados), que representa uma economia 
+            significativa para veículos nessa faixa de preço.
 
             </div>
 
