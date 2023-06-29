@@ -34,7 +34,8 @@ export default function CarrosEletricosBrasil() {
     width="80%" 
     height="400px" 
     options={options}
-    data={data} />
+    data={data}
+     />
     </div>
     <div className={`flex justify-center items-center bg-white text-black`}> Fonte: NeoCharge</div>
     </Area>

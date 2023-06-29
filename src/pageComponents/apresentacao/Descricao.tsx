@@ -6,7 +6,7 @@ export default function Slogan() {
             O Tesla Model Y conquistou um feito histórico em 2023: foi o carro mais vendido 
             do mundo no primeiro trimestre, superando todos os modelos a combustão. Segundo 
             a consultoria Jato Dynamics, o SUV elétrico da marca americana emplacou impressionantes 
-            267.200 unidades nos três primeiros meses do ano1.
+            267.200 unidades nos três primeiros meses do ano.
             </div>
             <div className="text-sm lg:text-lg text-black text-center sm:text-left">
             Os carros híbridos e elétricos estão ganhando cada vez mais espaço no Brasil. Segundo a 
